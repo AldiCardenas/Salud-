@@ -5,7 +5,7 @@ PAGINA DE INICIO
 	<head>
 		<title>Primera pagina web- </title>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 		 <link rel="icon" href="iconn.ico">
 	</head>
 	<body>
@@ -35,6 +35,7 @@ PAGINA MEDICO
 <head>
 	
 	<title>Medico</title>
+	 <link rel="icon" href="iconn.ico">
 	
 </head>
 <body>
@@ -47,11 +48,40 @@ PAGINA MEDICO
     <p>Matricula</p><input type="text">
     <p>Email</p><input type="email">
     <p>Contraseña</p><input type="password">
-    <button><a href="" <b>Ingresar </b></a> </button>
+   <button> 
+    	<a href="medico2.html" <b>Ingresar </b></a> </button>
+  
 </div>
+</form>
+
 <br>
     <a href="index.html">Volver</a>
 
-  </form>
+ 
 </body>
+
+
+PAGINA MEDICO 2
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="iconn.ico">
+	<title>DisFar</title>
+</head>
+<body>
+
+	<h2><b>Buscar Paciente:</b> </h2>
+	<form>
+		<div>
+			<p>Nombre y Apellido</p> <input type="text">
+			<p>N° Documento</p> <input type="text">
+		</div>
+   </form>
+   <br>
+   
+    <button>  <a href="index.html">Salir</a> </button>
+    <button> <b>Nuevo Paciente </b> </button>
+</body>
+</html>
 </html>
