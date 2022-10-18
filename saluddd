@@ -1,87 +1,40 @@
-PAGINA DE INICIO
-
-
-<html>
-	<head>
-		<title>Primera pagina web- </title>
-		<meta charset="utf-8">
-		
-		 <link rel="icon" href="iconn.ico">
-	</head>
-	<body>
-	 <h1>Bienvenidos a DisFar</h1> 
-	<img src="fondo.jpg">
-
-	<p>
-	  
-
-	  ¿Como desea ingresar al sistema?
-
-	 </p>
-	 <button><a href="Medico.html"> <b>Medico</b></a> </button> <br>
-
-
-	 <button><a href="Paciente.html"> <b>Paciente</b> </a> </button>
- 
-	</body>
-</html>
-
-
-
-
-PAGINA MEDICO
-
-<html>
-<head>
-	
-	<title>Medico</title>
-	 <link rel="icon" href="iconn.ico">
-	
-</head>
-<body>
-
-  <h1>Mi Cuenta</h1>
-
-  <form> 
-  	<div>
-  	<p>Nombre y apellido</p><input type="text">
-    <p>Matricula</p><input type="text">
-    <p>Email</p><input type="email">
-    <p>Contraseña</p><input type="password">
-   <button> 
-    	<a href="medico2.html" <b>Ingresar </b></a> </button>
-  
-</div>
-</form>
-
-<br>
-    <a href="index.html">Volver</a>
-
- 
-</body>
-
-
-PAGINA MEDICO 2
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<link rel="icon" href="iconn.ico">
-	<title>DisFar</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Tu Historia Clínica Digital</title>
 </head>
-<body>
+<body> 
+    
+    
+    <!-- Barra de navegacion-->
+    <ul>
+        <li class="logo"> <b>SALUD</b> </li>
+        <li><a href="contacto.asp">Contacto</a></li>
+        <li><a href="ayuda.asp">Ayuda</a></li> 
+        <li><a href="nosotros.asp">Nosotros</a></li>
+        <li><a href="inicio.asp">Inicio</a></li>
+    </ul>
 
-	<h2><b>Buscar Paciente:</b> </h2>
-	<form>
-		<div>
-			<p>Nombre y Apellido</p> <input type="text">
-			<p>N° Documento</p> <input type="text">
-		</div>
-   </form>
-   <br>
-   
-    <button>  <a href="index.html">Salir</a> </button>
-    <button> <b>Nuevo Paciente </b> </button>
+<!-- texto-->
+    <h1 class="titulo"> Bienvenido a tu Historia Clínica Digital</h1>
+    <h3 class="subtitulo">Gestión de Historias Clínicas Digitales que funciona de manera rapida y eficiente</h3>
+
+<!-- formas iniciar sesion--> 
+    <div class="menu">
+        <div class="ingresar">
+            <h2> ¿Como desea ingresar al sistema? </h2>
+            <div class="formas.">
+                <button class="medico"><a href="Medico.html"> <b>Medico</b></a> </button>
+                <button class="paciente"><a href="Paciente.html"> <b>Paciente</b> </a> </button>
+                <cabeza>
+                <enlace rel="icono" href="iconn.ico">
+
+            </div>
+        </div>
+    </div>
 </body>
-</html>
 </html>
