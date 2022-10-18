@@ -6,6 +6,7 @@ PAGINA DE INICIO
 		<title>Primera pagina web- </title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <link rel="icon" href="iconn.ico">
 	</head>
 	<body>
 	 <h1>Bienvenidos a DisFar</h1> 
@@ -21,10 +22,7 @@ PAGINA DE INICIO
 
 
 	 <button><a href="Paciente.html"> <b>Paciente</b> </a> </button>
-  <head>
-
-	 <link rel="icon" href="iconn.ico">
-	 </head>
+ 
 	</body>
 </html>
 
