@@ -1,0 +1,58 @@
+PAGINA DE INICIO
+
+
+<html>
+	<head>
+		<title>Primera pagina web- </title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+	 <h1>Bienvenidos a DisFar</h1> 
+	<img src="fondo.jpg">
+
+	<p>
+	  
+
+	  ¿Como desea ingresar al sistema?
+
+	 </p>
+	 <button><a href="Medico.html"> <b>Medico</b></a> </button> <br>
+
+
+	 <button><a href="Paciente.html"> <b>Paciente</b> </a> </button>
+  <head>
+
+	 <link rel="icon" href="iconn.ico">
+	 </head>
+	</body>
+</html>
+
+
+
+
+PAGINA MEDICO
+
+<html>
+<head>
+	
+	<title>Medico</title>
+	
+</head>
+<body>
+
+  <h1>Mi Cuenta</h1>
+
+  <form> 
+  	<div>
+  	<p>Nombre y apellido</p><input type="text">
+    <p>Matricula</p><input type="text">
+    <p>Email</p><input type="email">
+    <p>Contraseña</p><input type="password">
+    <button><a href="" <b>Ingresar </b></a> </button>
+</div>
+<br>
+    <a href="index.html">Volver</a>
+
+  </form>
+</body>
+</html>
